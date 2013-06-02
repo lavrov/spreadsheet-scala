@@ -1,0 +1,51 @@
+exit
+nae
+name
+gen-idea
+exit
+gen-idea
+exit
+gen-idea
+exit
+run
+package
+exit
+clean
+package
+exit
+run
+run arg=10
+run -arg 10
+run -arg 10 -b 20
+run
+run hello
+run 
+exit
+clean
+console
+run
+run help
+:help
+help
+help tastks
+help tasks
+tasks
+help run
+run-main AppRunner
+run-main spreadsheet.AppRunner
+run-main Worksheet
+exit
+update
+gen-idea
+run-main Worksheet
+gen-idea
+run-main Worksheet
+run-main Parser
+run-main spreadsheet.AppRunner
+run-main Parser
+run-main spreadsheet.AppRunner
+run-main spreadsheet.TestApp
+run-main spreadsheet.AppRunner
+run-main spreadsheet.TestApp
+run-main spreadsheet.AppRunner
+exit
