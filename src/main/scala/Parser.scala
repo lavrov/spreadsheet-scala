@@ -4,6 +4,8 @@ import scala.util.parsing.combinator._
 import lexical.{StdLexical, Lexical}
 import syntactical.StdTokenParsers
 
+import Model._
+
 object Parser {
 
   private val parser = new StdTokenParsers {
@@ -33,12 +35,3 @@ object Parser {
 
   def parse(in: String) = parser.parse(in).map(Some(_)) getOrElse None
 }
-
-trait Expression
-case class CellIndex(row: Int, column: Int) extends Expression
-case class Number(n: Int) extends Expression
-case class Func(name: String, range: CellRange) extends Expression
-case class BinaryOp(left: Expression, right: Expression) extends Expression
-case class CellRange(start: CellIndex, end: CellIndex)
-
-case class Command(index: CellIndex, expression: Expression)

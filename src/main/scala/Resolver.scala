@@ -1,6 +1,7 @@
 package spreadsheet
 
 import IO._
+import Model._
 import scalaz._
 import std.option._
 import std.list._
@@ -9,13 +10,11 @@ import syntax.traverse._
 import syntax.apply._
 
 object Resolver {
-  def resolve(input: Input) = {
-    MapSpreadsheetResolver(input).resolve
-  }
+  def resolve(input: Input) = MapSpreadsheetResolver(input).resolve
 }
 
 trait SpreadsheetResolver {
-  def resolve: Option[Seq[(CellIndex, Cell)]]
+  def resolve: Option[Spreadsheet]
 }
 
 case class MapSpreadsheetResolver(input: Input) extends SpreadsheetResolver {
@@ -64,7 +63,3 @@ case class MapSpreadsheetResolver(input: Input) extends SpreadsheetResolver {
     )
   }
 }
-
-trait Cell
-case class UnresolvedCell(expression: Expression) extends Cell
-case class ResolvedCell(result: Int) extends Cell
