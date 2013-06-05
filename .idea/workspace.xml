@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04fd54ad-1855-464c-87e4-3b8a8290baa1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/DependencyGraph.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/ProofOfConcept.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/IO.scala" afterPath="$PROJECT_DIR$/src/main/scala/IO.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Model.scala" afterPath="$PROJECT_DIR$/src/main/scala/Model.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Parser.scala" afterPath="$PROJECT_DIR$/src/main/scala/Parser.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Resolver.scala" afterPath="$PROJECT_DIR$/src/main/scala/Resolver.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbt-launch.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="scala.iws" />
@@ -21,7 +17,7 @@
     <file path="/Scala Console" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370174714137" ignored="false" />
     <file path="/Worksheet.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370162657159" ignored="false" />
     <file path="/input.txt" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370180375788" ignored="false" />
-    <file path="/Dummy.txt" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370420224927" ignored="false" />
+    <file path="/Dummy.txt" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370437679338" ignored="false" />
     <file path="/.gitignore" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370249934494" ignored="false" />
     <file path="/IO.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370431256398" ignored="false" />
     <file path="/spreadsheet.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370418468852" ignored="false" />
@@ -43,6 +39,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -77,7 +74,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -86,7 +82,19 @@
     <favorites_list name="scala" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Resolver.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Resolver.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="34" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.8264669">
+              <folding>
+                <element signature="e#21#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -155,7 +163,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -217,6 +224,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,9 +242,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -257,6 +265,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -285,19 +306,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -391,14 +399,18 @@
       <created>1370420231011</created>
       <updated>1370420231011</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sum by mode">
+      <created>1370433243341</created>
+      <updated>1370433243341</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="34" width="2562" height="1407" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32904264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -406,17 +418,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960063" sideWeight="0.6709574" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960063" sideWeight="0.6709574" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.541432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -459,7 +471,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="code cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="sum by mode" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -476,6 +488,7 @@
     <MESSAGE value="AppRunner refactoring" />
     <MESSAGE value="minor refactoring" />
     <MESSAGE value="code cleaning" />
+    <MESSAGE value="sum by mode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -483,118 +496,82 @@
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/Promise.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="7" selection-start="3836" selection-end="3836" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="119" column="7" selection-start="3836" selection-end="3836" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/concurrent/ExecutorService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.100250624">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.100250624" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.1/lib/scala-library.jar!/scala/concurrent/forkjoin/ForkJoinPool.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="314" column="55" selection-start="14110" selection-end="14110" vertical-scroll-proportion="0.85750854">
-          <folding />
-        </state>
+        <state line="314" column="55" selection-start="14110" selection-end="14110" vertical-scroll-proportion="0.85750854" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/Awaitable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="50" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="59" column="50" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/concurrent/Executor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="58" selection-start="177" selection-end="177" vertical-scroll-proportion="0.09917355">
-          <folding />
-        </state>
+        <state line="6" column="58" selection-start="177" selection-end="177" vertical-scroll-proportion="0.09917355" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/impl/ExecutionContextImpl.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="10" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="76" column="10" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/ExecutionContext.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="92" selection-start="2218" selection-end="2218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="62" column="92" selection-start="2218" selection-end="2218" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/package.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="8" selection-start="5171" selection-end="5171" vertical-scroll-proportion="0.8016529">
-          <folding />
-        </state>
+        <state line="105" column="8" selection-start="5171" selection-end="5171" vertical-scroll-proportion="0.8016529" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/Future.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="559" column="6" selection-start="18727" selection-end="18727" vertical-scroll-proportion="0.33305785">
-          <folding />
-        </state>
+        <state line="559" column="6" selection-start="18727" selection-end="18727" vertical-scroll-proportion="0.33305785" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ProofOfConcept.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="102" selection-end="117" vertical-scroll-proportion="0.07933884">
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="4" column="24" selection-start="102" selection-end="117" vertical-scroll-proportion="0.07933884" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Parser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="403" selection-end="403" vertical-scroll-proportion="0.3570248">
-          <folding>
-            <element signature="e#21#59#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="18" column="10" selection-start="403" selection-end="403" vertical-scroll-proportion="0.3570248" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/DependencyGraph.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.119008265">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.119008265" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/IO.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="90" selection-start="529" selection-end="529" vertical-scroll-proportion="0.31735536">
-          <folding>
-            <element signature="e#21#40#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="16" column="90" selection-start="529" selection-end="529" vertical-scroll-proportion="0.31735536" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Model.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.13884297">
-          <folding />
-        </state>
+        <state line="7" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.13884297" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Resolver.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.6429752">
+        <state line="40" column="34" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.8264669">
           <folding>
             <element signature="e#21#32#0" expanded="true" />
           </folding>
