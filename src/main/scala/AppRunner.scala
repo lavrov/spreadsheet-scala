@@ -1,6 +1,6 @@
 package spreadsheet
 
-import io._
+import IO._
 import java.io.File
 
 object AppRunner extends App {

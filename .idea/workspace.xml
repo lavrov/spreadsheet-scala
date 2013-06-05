@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04fd54ad-1855-464c-87e4-3b8a8290baa1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/IO.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/io/package.scala" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/AppRunner.scala" afterPath="$PROJECT_DIR$/src/main/scala/AppRunner.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Resolver.scala" afterPath="$PROJECT_DIR$/src/main/scala/Resolver.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="scala.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/AppRunner.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370249674647" ignored="false" />
+    <file path="/AppRunner.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370417267993" ignored="false" />
     <file path="/package.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370163887614" ignored="false" />
     <file path="/Cell.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370082452636" ignored="false" />
-    <file path="/Resolver.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370180450529" ignored="false" />
+    <file path="/Resolver.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370418011989" ignored="false" />
     <file path="/fragment.java" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370082398995" ignored="false" />
     <file path="/a.dummy" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370249434006" ignored="false" />
     <file path="/Scala Console" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370174714137" ignored="false" />
     <file path="/Worksheet.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370162657159" ignored="false" />
     <file path="/input.txt" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370180375788" ignored="false" />
-    <file path="/Dummy.txt" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370250091458" ignored="false" />
+    <file path="/Dummy.txt" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370417074255" ignored="false" />
     <file path="/.gitignore" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370249934494" ignored="false" />
+    <file path="/IO.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370417579248" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +36,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -68,6 +70,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -77,19 +80,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Parser.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Parser.scala">
+      <file leaf-file-name="Resolver.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Resolver.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="27" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppRunner.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/AppRunner.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="16" selection-start="70" selection-end="70" vertical-scroll-proportion="0.15">
+            <state line="50" column="28" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.4842975">
               <folding>
                 <element signature="e#21#32#0" expanded="true" />
               </folding>
@@ -124,18 +118,20 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/Worksheet.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Parser.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/io/package.scala" />
         <option value="$PROJECT_DIR$/input.txt" />
-        <option value="$PROJECT_DIR$/src/main/scala/Resolver.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/AppRunner.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/scala/io/package.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/AppRunner.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/IO.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Resolver.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="34" />
-    <option name="width" value="2560" />
-    <option name="height" value="1406" />
+    <option name="width" value="2562" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -163,6 +159,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,10 +197,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resolver.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,9 +264,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -243,19 +287,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -284,6 +315,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -361,11 +405,15 @@
       <created>1370250062815</created>
       <updated>1370250062815</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AppRunner refactoring">
+      <created>1370250109039</created>
+      <updated>1370250109039</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="34" width="2560" height="1406" extended-state="0" />
+    <frame x="-1" y="34" width="2562" height="1407" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -376,17 +424,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980016" sideWeight="0.67069244" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960063" sideWeight="0.67069244" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.541432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -449,53 +497,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/syntax/TraverseSyntax.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/syntax/std/OptionOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="6" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/syntax/std/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="9" selection-start="61" selection-end="61" vertical-scroll-proportion="0.079404466">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/std/AnyVal.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="523" column="14" selection-start="16409" selection-end="16411" vertical-scroll-proportion="1.3218884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/syntax/std/BooleanOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="0" selection-start="5315" selection-end="5315" vertical-scroll-proportion="0.7816377">
-          <folding />
-        </state>
+        <state line="264" column="0" selection-start="5315" selection-end="5315" vertical-scroll-proportion="0.7816377" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/syntax/std/ToAllStdOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="78" selection-end="78" vertical-scroll-proportion="0.099255584">
-          <folding />
-        </state>
+        <state line="5" column="17" selection-start="78" selection-end="78" vertical-scroll-proportion="0.099255584" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/Scalaz.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="443" selection-end="443" vertical-scroll-proportion="0.15880893">
-          <folding />
-        </state>
+        <state line="8" column="23" selection-start="443" selection-end="443" vertical-scroll-proportion="0.15880893" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/Applicative.scala">
@@ -507,9 +521,7 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/collection/MapLike.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="6" selection-start="2717" selection-end="2717" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="81" column="6" selection-start="2717" selection-end="2717" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/Option.scala">
@@ -521,44 +533,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/io/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="157" selection-end="157" vertical-scroll-proportion="0.13895781">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Resolver.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="11" selection-start="328" selection-end="328" vertical-scroll-proportion="0.37717122">
-          <folding>
-            <element signature="e#21#32#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="1" column="7" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="138" selection-end="138" vertical-scroll-proportion="0.42">
-          <folding />
-        </state>
+        <state line="14" column="8" selection-start="138" selection-end="138" vertical-scroll-proportion="0.42" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Parser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="27" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+        <state line="23" column="47" selection-start="734" selection-end="734" vertical-scroll-proportion="0.46">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/AppRunner.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="70" selection-end="70" vertical-scroll-proportion="0.15">
+        <state line="12" column="13" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#21#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/Apply.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="103" selection-start="3200" selection-end="3201" vertical-scroll-proportion="-0.7084048">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/syntax/ApplySyntax.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="6" selection-start="2980" selection-end="2980" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/Traverse.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="6" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.33305785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/IO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="64" selection-start="224" selection-end="224" vertical-scroll-proportion="0.1983471">
+          <folding>
+            <element signature="e#21#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/syntax/FunctorSyntax.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="12" selection-start="216" selection-end="216" vertical-scroll-proportion="0.1785124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Resolver.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="28" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.4842975">
           <folding>
             <element signature="e#21#32#0" expanded="true" />
           </folding>
