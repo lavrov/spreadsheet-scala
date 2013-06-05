@@ -14,9 +14,11 @@ object Parser {
 
     lexical.delimiters ++= "|" :: "(" :: ")" :: ":" :: "+" :: Nil
 
-    def number = numericLit ^^ (c => Number(c.toInt))
+    def integer = numericLit ^^ (c => c.toInt)
 
-    def cellIndex = number ~ "|" ~ number ^^ {case r~_~c => CellIndex(r.n, c.n)}
+    def number = numericLit ^^ (c => Number(c.toLong))
+
+    def cellIndex = integer ~ "|" ~ integer ^^ {case r~_~c => CellIndex(r, c)}
 
     def range = cellIndex ~ ":" ~ cellIndex ^^ {case s~_~e => CellRange(s, e)}
 

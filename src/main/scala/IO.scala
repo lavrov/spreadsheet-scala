@@ -14,6 +14,6 @@ object IO {
 
   def printResult(spreadsheet: Spreadsheet) =
     spreadsheet.sortBy { case (index, _) => index.row -> index.column }.foreach {
-      case (index, cell) => println(s"${index.row}|${index.column} $cell")
+      case (index, ResolvedCell(number)) => println(s"${index.row}|${index.column} $number")
     }
 }

@@ -10,17 +10,19 @@ import syntax.traverse._
 import syntax.apply._
 
 object Resolver {
+  private def +%(a: Long, b: Long) = a + b % 18014398241046527L
+
   def resolve(input: Input) = {
     val map =
       collection.mutable.Map[CellIndex, Cell](input.map(c => c.index -> UnresolvedCell(c.expression)): _*)
 
-    def resolve(index: CellIndex, fringe: Set[CellIndex]): Option[Int] = {
+    def resolve(index: CellIndex, fringe: Set[CellIndex]): Option[Long] = {
       lazy val deeperFringe = fringe + index
 
-      def resolveExpression(expr: Expression): Option[Int] = expr match {
+      def resolveExpression(expr: Expression): Option[Long] = expr match {
         case Number(num) => Some(num)
-        case BinaryOp(left, right) => ^(resolveExpression(left), resolveExpression(right))(_ + _)
-        case Func("SUM", range) => resolveRange(range).map(_.sum)
+        case BinaryOp(left, right) => ^(resolveExpression(left), resolveExpression(right))(+%)
+        case Func("SUM", range) => resolveRange(range).map(_.foldLeft(0L)(+%))
         case ind: CellIndex => resolve(ind, deeperFringe)
         case _ => None
       }
