@@ -9,7 +9,9 @@ trait Algorithm {
 }
 
 object Algorithm {
-  def +%(a: Long, b: Long) = a + b % 18014398241046527L
+  def +%(a: Long, b: Long) = {
+    a + b % 18014398241046527L
+  }
 
   def rangeBetween(a: Int, b: Int) = Math.min(a, b) to Math.max(a, b)
 

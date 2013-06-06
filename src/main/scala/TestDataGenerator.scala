@@ -8,10 +8,12 @@ object TestDataGenerator extends App {
   val fileWriter = new BufferedWriter(new FileWriter("input.txt"))
 
   for {
-    row <- 1 to 100
+    row <- 1 to 1000
     column <-1 to 100
   }
     fileWriter.write {
-      row + "|" + column + " " + List.fill(5)(Random.nextLong().abs).mkString(" + ") + "\n"
+      row + "|" + column + " " + List.fill(20)(Random.nextLong().abs).mkString(" + ") + "\n"
     }
+
+  fileWriter.close()
 }

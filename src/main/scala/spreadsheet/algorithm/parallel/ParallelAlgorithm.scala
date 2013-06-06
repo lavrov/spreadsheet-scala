@@ -21,7 +21,7 @@ object ParallelAlgorithm extends Algorithm {
   def resolve(input: Spreadsheet): Option[ResultSpreadsheet] = {
 
     val spreadsheetResolution = input.map { case (index, expression) =>
-      index -> resolveExpression(expression).filterDependencies(input.keySet.contains)
+      index -> resolveExpression(expression)
     }
 
     val freeCells = collection.mutable.ListBuffer.empty[CellIndex]

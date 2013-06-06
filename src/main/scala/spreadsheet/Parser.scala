@@ -24,9 +24,9 @@ object Parser {
 
     def binary = nonRecursiveExpression ~ "+" ~ expression ^^ {case left~_~right => BinaryOp(left, right)}
 
-    def nonRecursiveExpression = cellIndex | number | fun
+    def nonRecursiveExpression = /*cellIndex |*/ number /*| fun*/
 
-    def expression: Parser[Expression] = binary | cellIndex | number | fun
+    def expression: Parser[Expression] = binary | /*cellIndex |*/ number /*| fun*/
 
     def parse(in: String) = phrase {
       cellIndex ~ expression ^^ {case index~exp => (index, exp)}
