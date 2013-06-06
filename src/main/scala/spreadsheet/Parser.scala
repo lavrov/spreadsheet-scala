@@ -14,11 +14,9 @@ object Parser {
 
     lexical.delimiters ++= "|" :: "(" :: ")" :: ":" :: "+" :: Nil
 
-    def integer = numericLit ^^ (c => c.toInt)
-
     def number = numericLit ^^ (c => Number(c.toLong))
 
-    def cellIndex = integer ~ "|" ~ integer ^^ {case r~_~c => CellIndex(r, c)}
+    def cellIndex = numericLit ~ "|" ~ numericLit ^^ {case r~_~c => CellIndex(r.toInt, c.toInt)}
 
     def range = cellIndex ~ ":" ~ cellIndex ^^ {case s~_~e => CellRange(s, e)}
 
@@ -31,7 +29,7 @@ object Parser {
     def expression: Parser[Expression] = binary | cellIndex | number | fun
 
     def parse(in: String) = phrase {
-      cellIndex ~ expression ^^ {case index~exp => Command(index, exp)}
+      cellIndex ~ expression ^^ {case index~exp => (index, exp)}
     }(new lexical.Scanner(in))
   }
 

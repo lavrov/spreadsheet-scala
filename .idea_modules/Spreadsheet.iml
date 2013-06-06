@@ -26,6 +26,10 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.1" level="project" />
     <orderEntry type="library" name="SBT: org.scalaz:scalaz-core_2.10:7.0.0" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-agent_2.10:2.1.4" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.10:2.1.4" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe:config:1.0.0" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-stm:scala-stm_2.10:0.7" level="project" />
   </component>
 </module>
 

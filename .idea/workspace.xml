@@ -1,30 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/DepthFirstSingleThread.scala" line="24" mnemonic="6" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="04fd54ad-1855-464c-87e4-3b8a8290baa1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbt-launch.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sbt" />
+    <list default="true" id="04fd54ad-1855-464c-87e4-3b8a8290baa1" name="Default" comment="parallel algorithm">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/Algorithm.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/parallel/ParallelAlgorithm.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/TestDataGenerator.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/DependencyGraph.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/ProofOfConcept.scala" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/IO.scala" afterPath="$PROJECT_DIR$/src/main/scala/spreadsheet/IO.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/Model.scala" afterPath="$PROJECT_DIR$/src/main/scala/spreadsheet/Model.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/Parser.scala" afterPath="$PROJECT_DIR$/src/main/scala/spreadsheet/Parser.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/Resolver.scala" afterPath="$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/DepthFirstSingleThread.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/AppRunner.scala" afterPath="$PROJECT_DIR$/src/main/scala/AppRunner.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea_modules/Spreadsheet.iml" afterPath="$PROJECT_DIR$/.idea_modules/Spreadsheet.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="scala.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/AppRunner.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370418934330" ignored="false" />
+    <file path="/AppRunner.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370528333433" ignored="false" />
     <file path="/package.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370163887614" ignored="false" />
     <file path="/Cell.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370082452636" ignored="false" />
     <file path="/Resolver.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370433184869" ignored="false" />
     <file path="/fragment.java" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370082398995" ignored="false" />
-    <file path="/a.dummy" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370249434006" ignored="false" />
+    <file path="/a.dummy" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370531857334" ignored="false" />
     <file path="/Scala Console" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370174714137" ignored="false" />
     <file path="/Worksheet.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370162657159" ignored="false" />
-    <file path="/input.txt" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370180375788" ignored="false" />
-    <file path="/Dummy.txt" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370437679338" ignored="false" />
+    <file path="/input.txt" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370528475014" ignored="false" />
+    <file path="/Dummy.txt" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370531905483" ignored="false" />
     <file path="/.gitignore" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370249934494" ignored="false" />
-    <file path="/IO.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370431256398" ignored="false" />
+    <file path="/IO.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370531187446" ignored="false" />
     <file path="/spreadsheet.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370418468852" ignored="false" />
-    <file path="/Model.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370432672436" ignored="false" />
-    <file path="/Parser.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370432853989" ignored="false" />
-    <file path="/ProofOfConcept.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370426792441" ignored="false" />
+    <file path="/Model.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370504004404" ignored="false" />
+    <file path="/Parser.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370527314543" ignored="false" />
+    <file path="/ProofOfConcept.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370530801067" ignored="false" />
     <file path="/DependencyGraph.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370431427667" ignored="false" />
+    <file path="/Algorithm.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370526382216" ignored="false" />
+    <file path="/DepthFirstSingleThread.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370505635316" ignored="false" />
+    <file path="/ParrallelResolver.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370499687255" ignored="false" />
+    <file path="/ParallelAlgorithm.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370526356414" ignored="false" />
+    <file path="/Dependecies.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370502734358" ignored="false" />
+    <file path="/Dependencies.scala" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370519349789" ignored="false" />
+    <file path="/build.sbt" changelist="04fd54ad-1855-464c-87e4-3b8a8290baa1" time="1370511595691" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +105,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Resolver.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Resolver.scala">
+      <file leaf-file-name="ParallelAlgorithm.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/parallel/ParallelAlgorithm.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="34" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.8264669">
-              <folding>
-                <element signature="e#21#32#0" expanded="true" />
-              </folding>
+            <state line="28" column="24" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDataGenerator.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/TestDataGenerator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="29" selection-start="362" selection-end="362" vertical-scroll-proportion="0.29411766">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="52" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,22 +150,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/source/Resolver.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Cell.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/source/package.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/algorithm/Algorithm.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/algorithm/DepthFirstSingleThread.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/algorithm/ParallelAlgorithm.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/parallel/Dependecies.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/spreadsheet/Model.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/DepthFirstSingleThread.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/Worksheet.scala" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/scala/io/package.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/spreadsheet.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/parallel/Dependencies.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/Algorithm.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/spreadsheet/Parser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/AppRunner.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/spreadsheet/IO.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ProofOfConcept.scala" />
         <option value="$PROJECT_DIR$/input.txt" />
-        <option value="$PROJECT_DIR$/src/main/scala/IO.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/DependencyGraph.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Model.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Parser.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Resolver.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/parallel/ParallelAlgorithm.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/TestDataGenerator.scala" />
       </list>
     </option>
   </component>
@@ -163,7 +201,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,9 +259,100 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spreadsheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spreadsheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spreadsheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parallel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,9 +370,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -265,19 +393,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -306,6 +421,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -408,9 +536,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="34" width="2562" height="1407" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32904264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31697506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -422,7 +550,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960063" sideWeight="0.6709574" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.68302494" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.541432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -471,7 +599,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="sum by mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="parallel algorithm" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -489,92 +617,112 @@
     <MESSAGE value="minor refactoring" />
     <MESSAGE value="code cleaning" />
     <MESSAGE value="sum by mode" />
+    <MESSAGE value="parallel algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/Promise.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.0-sources.jar!/scalaz/syntax/std/BooleanOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="7" selection-start="3836" selection-end="3836" vertical-scroll-proportion="0.0" />
+        <state line="203" column="12" selection-start="3474" selection-end="3474" vertical-scroll-proportion="0.024948025" />
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/concurrent/ExecutorService.class">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/spreadsheet/Model.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.100250624" />
+        <state line="3" column="7" selection-start="43" selection-end="43" vertical-scroll-proportion="0.07484408" />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.10.1/lib/scala-library.jar!/scala/concurrent/forkjoin/ForkJoinPool.class">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/App.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="314" column="55" selection-start="14110" selection-end="14110" vertical-scroll-proportion="0.85750854" />
+        <state line="37" column="6" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/Awaitable.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe/config/srcs/config-1.0.0-sources.jar!/com/typesafe/config/ConfigFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="50" selection-start="2770" selection-end="2770" vertical-scroll-proportion="0.0" />
+        <state line="276" column="25" selection-start="11817" selection-end="11817" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/concurrent/Executor.class">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe/config/srcs/config-1.0.0-sources.jar!/com/typesafe/config/impl/SimpleConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="58" selection-start="177" selection-end="177" vertical-scroll-proportion="0.09917355" />
+        <state line="32" column="12" selection-start="1047" selection-end="1047" vertical-scroll-proportion="-4.211838">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/impl/ExecutionContextImpl.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe/config/srcs/config-1.0.0-sources.jar!/com/typesafe/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="10" selection-start="3364" selection-end="3364" vertical-scroll-proportion="0.0" />
+        <state line="75" column="0" selection-start="3425" selection-end="3425" vertical-scroll-proportion="-1.6853583">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/ExecutionContext.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.1.4-sources.jar!/akka/actor/ActorSystem.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="92" selection-start="2218" selection-end="2218" vertical-scroll-proportion="0.0" />
+        <state line="491" column="12" selection-start="19621" selection-end="19621" vertical-scroll-proportion="0.33261803">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/package.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/Algorithm.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="8" selection-start="5171" selection-end="5171" vertical-scroll-proportion="0.8016529" />
+        <state line="9" column="95" selection-start="161" selection-end="161" vertical-scroll-proportion="0.15264797">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/concurrent/Future.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/AppRunner.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="559" column="6" selection-start="18727" selection-end="18727" vertical-scroll-proportion="0.33305785" />
+        <state line="23" column="65" selection-start="690" selection-end="690" vertical-scroll-proportion="0.49844238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.1-sources.jar!/scala/runtime/ScalaNumberProxy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="6" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/spreadsheet/IO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="110" selection-start="256" selection-end="256" vertical-scroll-proportion="0.32352942">
+          <folding>
+            <element signature="e#21#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/spreadsheet/Parser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="43" selection-start="826" selection-end="826" vertical-scroll-proportion="0.5294118">
+          <folding>
+            <element signature="e#21#59#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" />
+        <state line="13" column="52" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ProofOfConcept.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/spreadsheet/algorithm/parallel/ParallelAlgorithm.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="102" selection-end="117" vertical-scroll-proportion="0.07933884" />
+        <state line="28" column="24" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Parser.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TestDataGenerator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="403" selection-end="403" vertical-scroll-proportion="0.3570248" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/DependencyGraph.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.119008265" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/IO.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="90" selection-start="529" selection-end="529" vertical-scroll-proportion="0.31735536" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Model.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.13884297" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Resolver.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="34" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.8264669">
-          <folding>
-            <element signature="e#21#32#0" expanded="true" />
-          </folding>
+        <state line="14" column="29" selection-start="362" selection-end="362" vertical-scroll-proportion="0.29411766">
+          <folding />
         </state>
       </provider>
     </entry>

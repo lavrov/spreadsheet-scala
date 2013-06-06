@@ -1,7 +1,8 @@
 package spreadsheet
 
 object Model {
-  type Spreadsheet = Seq[(CellIndex, Cell)]
+  type Spreadsheet = Map[CellIndex, Expression]
+  type ResultSpreadsheet = Map[CellIndex, Long]
 
   trait Cell
   case class UnresolvedCell(expression: Expression) extends Cell
