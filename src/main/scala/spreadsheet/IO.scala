@@ -15,7 +15,7 @@ object IO {
 
   def loadFile(file: File): Option[Spreadsheet] = {
     val r = Await.result(
-      Future.sequence(scala.io.Source.fromFile(file).getLines().toList.map(line => future(Parser.parse(line)))),
+      Future.sequence(scala.io.Source.fromFile(file).getLines().filterNot(_.trim.isEmpty).toList.map(line => future(Parser.parse(line)))),
       Duration.Inf
     ).sequence.map(_.toMap)
     r
